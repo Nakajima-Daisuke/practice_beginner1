@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+.common-inner {
+  width: 960px;
+  margin: 0 auto;
+  font-family: 'Noto Serif JP', serif;
+}
+
+/* header */
+.page-header {
+  background-color: #5a442a;
+}
+.header-inner {
+  padding: 24px 0;
+}
+.header-title {
+  color: #fff;
+  line-height: 1.0;
+}
+.header-title .large {
+  font-size: 2.5rem;
+}
+.header-title .small {
+  font-size: 1.3rem;
+}
+.header-mainvisual img {
+  width: 100%;
+}
+
+/* main */
+.main-content {
+  padding: 50px 0;
+  background-color: #faf5ed;
+}
+.section-top {
+  margin-bottom: 30px;
+}
+.section-top-title {
+  line-height: 1.0;
+}
+.section-top-title .large {
+  font-size: 2.5rem;
+}
+.section-top-title .small {
+  font-size: 1.5rem;
+}
+.section-list {
+  margin-bottom: 50px;
+}
+.section-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+.section-item {
+  display: flex;
+}
+.section-item-img {
+  width: 480px;
+  margin-right: 20px;
+}
+.section-item-text {
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+.section-title-bottom {
+  line-height: 1.0;
+  text-align: center;
+}
+.section-title-bottom a {
+  color: #070707;
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+.section-title-bottom a:hover {
+  border-bottom: none;
+}
+.section-title-bottom .large {
+  font-size: 2.5rem;
+}
+.section-title-bottom .small {
+  font-size: 1.3rem;
+}
+
+/* footer */
+.page-footer {
+  padding: 22px 0;
+  background-color: #5a442a;
+}
+.page-footer p {
+  font-size: 1.2rem;
+  line-height: 1.0;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .page-header {
+    width: 960px;
+  }
+  .header-title {
+    padding-left: 20px;
+  }
+  .main-content {
+    width: 960px;
+  }
+  .section-top-title {
+    padding-left: 20px;
+  }
+  .section-item-img {
+    margin-left: 20px;
+  }
+  .section-item-text {
+    font-size: 1.0rem;
+    line-height: 1.1;
+  }
+  .page-footer {
+    width: 960px;
+  }
+}
