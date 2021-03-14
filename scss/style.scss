@@ -1,0 +1,93 @@
+//共通部分
+.common-inner {
+  width: 960px;
+  margin: 0 auto;
+  font-family: 'Noto Serif JP', serif;
+}
+
+//header
+.page-header {
+  background-color: #5a442a;
+}
+.header-inner {
+  padding: 24px 0;
+}
+.header-title {
+  color: #fff;
+  line-height: 1.0;
+  &.large {
+    font-size: 2.5rem;
+  }
+  &.small {
+    font-size: 1.3rem;
+  }
+}
+.header-mainvisual img {
+  width: 100%;
+}
+
+//main
+.main-content {
+  padding: 50px 0;
+  background-color: #faf5ed;
+}
+.section-top {
+  margin-bottom: 30px;
+  &--title {
+    line-height: 1.0;
+    &.large {
+      font-size: 2.5rem;
+    }
+    &.small {
+      font-size: 1.5rem;
+    }
+  }
+}
+.section-list {
+  margin-bottom: 50px;
+}
+.section-item {
+  display: flex;
+  &--img {
+    width: 480px;
+    margin-right: 20px;
+  }
+  &--text {
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+  }
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+.section-item-bottom {
+  line-height: 1.0;
+  text-align: center;
+  a {
+    color: #070707;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    &:hover {
+      border-bottom: none;
+    }
+  }
+  &--large {
+    font-size: 2.5rem;
+  }
+  &--small {
+    font-size: 1.3rem;
+  }
+}
+
+//footer
+.page-footer {
+  padding: 22px 0;
+  background-color: #5a442a;
+  p {
+    font-size: 1.2rem;
+    line-height: 1.0;
+    text-align: center;
+    color: #fff;
+  }
+}
